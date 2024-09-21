@@ -1,0 +1,31 @@
+footer {
+    color: white;
+}
+footer a {
+    color: currentColor;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+.logo-empresa {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+}
+.container-footer {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.redes-footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 206px;
+}
+.redes-footer img {
+    height: 20px;
+}
