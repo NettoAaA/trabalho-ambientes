@@ -1,5 +1,7 @@
 footer {
     color: white;
+    background-color: var(--azul-mais-escuro);
+    height: 300px;
 }
 footer a {
     color: currentColor;
