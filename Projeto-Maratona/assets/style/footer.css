@@ -1,0 +1,50 @@
+footer {
+    color: white;
+}
+footer a {
+    color: currentColor;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer p {
+    margin: 0;
+}
+.logo-empresa {
+    width: 100px;
+    height: 70px;
+    background-color: white;
+    align-self: flex-start;
+}
+.container-footer {
+    height: 100%;
+}
+.content-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.redes-footer {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 206px;
+}
+.redes-footer img {
+    height: 20px;
+}
+.footer-extra {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-extra div{
+    width: fit-content;
+}
+
