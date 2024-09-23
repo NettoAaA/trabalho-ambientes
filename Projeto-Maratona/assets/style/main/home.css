@@ -1,3 +1,5 @@
+
+
 .titulo {
     height: 600px;
     background: linear-gradient(to right, var(--azul-mais-escuro),var(--azul-quase-preto));
@@ -27,6 +29,7 @@
 .maratonas {
     height: 900px;
     color: white;
+    background-color: gray;
 }
 .maratonas-container {
     margin: 30px;
