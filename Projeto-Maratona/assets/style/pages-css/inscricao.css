@@ -1,6 +1,6 @@
 
 .titulo {
-    height: 500px;
+    height: 700px;
 }
 .titulo-container {
     height: 500px;
@@ -11,4 +11,81 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+.inscricao {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-color: rgba(128, 128, 128, 0.164);   
+    padding-bottom: 30px;
+}
+.inscricao-container {
+    height: 70%;
+    background-color:var(--azul-quase-preto);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: relative;    
+
+}
+.nomes {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.nomes>div {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    color: white;
+    align-content: space-evenly;
+}
+.nomes-input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+.outros{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.outros>div {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    color: white;
+    align-content: space-evenly;
+}
+#div-textarea {
+    height: 175px ;
+}
+.nomes-textarea {
+    height: 150px;
+    width: 100%;
+}
+#subscribe-btn {
+    position: absolute;
+    right: 5px;
+    bottom: -70px;
+    height: 57px;
+    width: 200px;
+    background-color:var(--azul-quase-preto);
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+#subscribe-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
