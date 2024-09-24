@@ -15,6 +15,7 @@
     flex-wrap: wrap;
     align-items: center;
     max-width: 1320px;
+    padding: 40px 0;
 }
 .maratonas-cards {
     height: 31%;
