@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import "./breakpoints";
+@import "./variables";
+@import "./mixins";
+@import "pages-scss/sobre-mim";
+@import "components-scss/header";
+@import "components-scss/burguer-menu";
+@import "pages-scss/projetos";
+@import "pages-scss/home";
+@import "components-scss/offScreen-menu";
