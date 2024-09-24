@@ -1,0 +1,14 @@
+
+.titulo {
+    height: 500px;
+}
+.titulo-container {
+    height: 500px;
+}
+.titulo-container>h1 {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
