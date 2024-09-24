@@ -1,0 +1,61 @@
+.titulo-container>h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    gap: 20px;
+}
+.portifolios {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.164);
+}
+.portifolios-container {
+    margin: 0 30px;
+    height: 70%;
+    width: calc(100% - 60px);
+    background-color: var(--azul-mais-escuro);
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    flex-flow:wrap;
+}
+.portifolios-container>div {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 200px;
+}
+.links-portifolios {
+    width: 70%;
+    position: relative;
+    padding-bottom: 10px;
+}
+#renan {
+    text-align: center;
+    width: fit-content;
+}
+.links-portifolios>a {
+    color: white;
+    text-decoration: none;
+}
+
+.links-portifolios::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    background-color: white;
+    height: 3px;
+    transition: 1s ease-in-out;
+    left: 0;
+    bottom: 0;
+}
+.links-portifolios:hover::after {
+    width: 100%;
+}
