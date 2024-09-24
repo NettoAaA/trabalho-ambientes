@@ -8,8 +8,32 @@
     --fonte: "Poppins", sans-serif;
 }
 
+.titulo-d-m {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-d-m h1 {
+    font-size: 60px;
+    font-weight: 800;
+}
+
 .container-d-maratona {
     background-color: var(--azul-mais-escuro);
     padding: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     color: white;
+}
+
+.container-d-maratona section {
+    margin-bottom: 70px;
+}
+
+.intro-m-d {
+    display: flex;
+    gap: 30px;
+    align-items: center;    
 }
