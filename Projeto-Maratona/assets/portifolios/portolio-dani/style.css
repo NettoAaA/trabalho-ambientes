@@ -1,0 +1,213 @@
+
+/* estilo do site todo */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+
+body{
+    background-color: black;
+    height: 100px;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.bt-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 550;
+    border-radius: 20px;
+    background-color: #751ed8;
+    border: 0;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 8px #751ed8;
+    transform: scale(1.05);
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+h2.titulo span{
+    color: #751ed8;
+}
+
+/* cabeçalho */
+header{
+    padding: 40px 4%;
+}
+
+header >  .interface {
+    /* procuro os elementos da interface dentro do header, pode usar flexbox sem dar b.o nos outros elementos do site */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.interface h1{
+    color: #751ed8;
+}
+
+
+/* estilizanado os botões do navbar (animando eles também)*/
+header a{
+    color: rgb(82, 82, 82);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* topo do site */
+
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;  /*gap é usado pra dar espaçamento*/
+}
+
+.topo-do-site .txt-topo-site h1{
+    color:#fff;
+    font-size: 40px;
+    line-height: 40px;
+}
+/*pra mudar a cor do pontin*/
+.topo-do-site .txt-topo-site h1 span{
+    color: #751ed8;
+}
+.topo-do-site .txt-topo-site p{
+    color:#fff;
+    margin: 40px 0;
+}
+
+ 
+/* estilo especilidades */
+section.esp{
+    padding: 40px 4%;
+}
+
+section.esp .flex{
+    gap: 60px;
+}
+/* caixinhas com a animação */
+.esp .esp-box{
+    color: #fff;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 20px;
+    transition: .2s;
+}
+.esp .esp-box:hover{
+    transform: scale(1.05);
+    box-shadow:  0 0 30px #ffffff86;
+}
+
+.esp .esp-box i{
+    font-size: 70px;
+    color: #751ed8;
+}
+/* titulo da caixinha */
+.esp .esp-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+/* sobre mim */
+section.sobre{
+    padding: 40px 4%;
+}
+/* alinha o texto no centro da imagem */
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: #fff;
+}
+/* titulo do texto */
+.sobre .txt-sobre h2{
+    font-size: 40px;
+}
+.sobre .txt-sobre h2 span{
+    color: #751ed8;
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align:justify ;
+}
+
+/* botão */
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #751ed8;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: .2s;
+}
+
+/* footer */
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;   
+}
+
+.interface .logo-footer h1{
+    color: #751ed8;
+}
+
+footer .flex{
+    justify-content: space-between;
+}
+
+footer .line-footer{
+    padding: 20px 0;
+}
+
+/* email do footer */
+footer .line-footer p i{
+    color: #751ed8;
+    font-size: 20px;
+}
+footer .line-footer p a{
+    color: #fff;
+}
