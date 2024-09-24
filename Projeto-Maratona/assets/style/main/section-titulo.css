@@ -1,6 +1,6 @@
 
 .titulo {
-    height: 600px;
+    height: 100vh;
     background: linear-gradient(to right, var(--azul-mais-escuro),var(--azul-quase-preto));
 }
 .titulo-container {
