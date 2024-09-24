@@ -1,0 +1,26 @@
+
+.titulo {
+    height: 600px;
+    background: linear-gradient(to right, var(--azul-mais-escuro),var(--azul-quase-preto));
+}
+.titulo-container {
+    height: 600px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+.titulo-container>h1 {
+    margin-top: 100px;
+    font-size: 64px;
+    line-height: 60px;
+    font-weight: 200;
+    width: 100%;
+}
+.titulo-container>h1>span {
+    font-weight: 700;
+}
+.titulo-text {
+    margin: 0;
+    width: 70%;
+}
