@@ -1,0 +1,15 @@
+:root {
+    --azul-mais-escuro: #032940;
+    --azul-intermediario: #085A8C;
+    --azul-claro: #0FB2F2;
+    --azul-quase-preto: #021C26;
+    --azul-esverdeado: #3DF2E0;
+
+    --fonte: "Poppins", sans-serif;
+}
+
+.container-d-maratona {
+    background-color: var(--azul-mais-escuro);
+    padding: 50px;
+    color: white;
+}
